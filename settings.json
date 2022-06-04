@@ -1,0 +1,7 @@
+{
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "on"
+}
