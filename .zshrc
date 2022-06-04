@@ -25,3 +25,6 @@ setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f: %F{cyan}%~%f %F{red}$(__git_ps1 "(%
 function _ssh {
   compadd `fgrep 'Host ' ~/.ssh/config | awk '{print $2}' | sort`;
 }
+
+# online-judge-tool用のショートカット
+alias ojt='oj t -c "python3 main.py" -d tests'
